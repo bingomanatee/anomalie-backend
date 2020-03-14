@@ -1,0 +1,2 @@
+class DressFeature < ApplicationRecord
+end

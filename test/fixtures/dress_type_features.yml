@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dress_type_id: 1
+  name: color
+  value: white
+
+two:
+  dress_type_id: 1
+  name: color
+  value: red
