@@ -5,7 +5,17 @@ one:
   name: color
   value: white
 
-two:
+three:
   dress_type_id: 1
+  name: trim
+  value: simple
+
+two:
+  dress_type_id: 2
   name: color
   value: red
+
+four:
+  dress_type_id: 2
+  name: trim
+  value: frilly

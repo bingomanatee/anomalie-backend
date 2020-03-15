@@ -2,10 +2,10 @@
 
 one:
   dress_id: 1
-  name: MyString
-  value: MyString
+  name: color
+  value: white
 
 two:
   dress_id: 1
-  name: MyString
-  value: MyString
+  name: trim
+  value: plain

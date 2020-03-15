@@ -2,8 +2,5 @@
 
 one:
   dress_type_id: 1
-  combination: 
+  combination: {"color": "red", "trim": "frilly"}
 
-two:
-  dress_type_id: 1
-  combination: 
