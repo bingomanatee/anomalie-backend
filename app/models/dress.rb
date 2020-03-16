@@ -35,6 +35,11 @@ class Dress < ApplicationRecord
     DressFeature.where(dress_id: id, name: name, value: value).count > 0
   end
 
+  def set_features(obj)
+    DressFeature.where(dress_id: id).delete_all
+    obj.each {|name, value| add_feature_value(name, value)}
+  end
+
   def add_feature_value(name, value)
     if (!has_feature_value?(name, value))
       dress_features << DressFeature.new({name: name, value: value})
